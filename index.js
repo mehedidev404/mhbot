@@ -1,3 +1,15 @@
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+  res.send('MhWorkBuddyBot is alive!');
+});
+
+app.listen(port, () => {
+  console.log(`Fake server is running on port ${port}`);
+});
+
 const TelegramBot = require('node-telegram-bot-api');
 const cron = require('node-cron');
 
