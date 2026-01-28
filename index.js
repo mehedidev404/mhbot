@@ -15,7 +15,8 @@ const cron = require('node-cron');
 
 const token = '8520766658:AAEsPuailEjKG2qju8ZyXOmhthOtv_5pY8E';
 const chatId = '-5194241271';
-
+// 2 bot
+process.env.NTBA_FIX_319 = 1;
 const bot = new TelegramBot(token, { polling: true });
 
 const sendTask = (message) => {
