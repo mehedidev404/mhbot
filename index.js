@@ -33,7 +33,7 @@ cron.schedule(
   '0 13 * * *',
   () => {
     sendTask(
-      'Oi shobai, Break time hoye gese! 🍜 Khuda lagse na? Kamrul bhai, Nayeem bhai cholun khate jai! Kaaj thakbe, pet toh r thakbe na! 😂',
+      'Oi shobai, Break time hoye gese! 🍜 Khuda lagse na? sobai cholun khate jai! Kaaj thakbe, pet toh r thakbe na! 😂',
     );
   },
   { timezone: 'Asia/Dhaka' },
@@ -44,7 +44,7 @@ cron.schedule(
   '0 17 * * *',
   () => {
     sendTask(
-      'Hay be ready for go home! 💼 Bag guchano shuru koren shobai. Nayem bhai PC off koren, Kamrul bhai apni o ready hon. Bashay jawar time hoye jaitese! 🏃‍♂️',
+      'Hay be ready for go home! 💼 Bag guchano shuru koren shobai. Bashay jawar time hoye jaitese! ar matro 1 hour 🏃‍♂️',
     );
   },
   { timezone: 'Asia/Dhaka' },
